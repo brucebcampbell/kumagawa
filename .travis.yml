@@ -1,12 +1,12 @@
 language: r
+cache: packages
 warnings_are_errors: false
 
-r_packages:
-  - covr
+sudo: true
+before_install:
+  - sudo apt-get install jags
+  - sudo apt-get install r-cran-rjags
 
-after_success:
-  - Rscript -e 'library(covr); codecov()'
-  
 repos:
   CRAN: https://cloud.r-project.org
   ropensci: http://packages.ropensci.org
@@ -18,3 +18,10 @@ repos:
   keep_history: true
   on:
     branch: master
+
+r_packages:
+  - covr
+
+after_success:
+  - Rscript -e 'library(covr); codecov()'
+ 
