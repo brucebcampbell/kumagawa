@@ -1,6 +1,7 @@
 # kumagawa
 
-[![Build Status]{https://travis-ci.com/brucebcampbell/kumagawa.svg?branch=master}]
+[![Build Status](https://travis-ci.org/brucebcampbell/kumagawa.svg?branch=master)](https://travis-ci.org/brucebcampbell/kumagawa)
+[![Coverage Status](https://coveralls.io/repos/github/brucebcampbell/kumagawa/badge.svg?branch=master)](https://coveralls.io/github/brucebcampbell/kumagawa?branch=master)
 
 The goal of kumagawa is to ...
 

@@ -1,5 +1,11 @@
 language: r
 warnings_are_errors: false
+r_packages:
+  - covr
+
+after_success:
+  - Rscript -e 'library(covr); codecov()'
+  
 repos:
   CRAN: https://cloud.r-project.org
   ropensci: http://packages.ropensci.org
