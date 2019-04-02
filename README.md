@@ -1,6 +1,6 @@
 # kumagawa
 
-https://travis-ci.com/brucebcampbell/kumagawa.svg?branch=master
+[![Build Status]{https://travis-ci.com/brucebcampbell/kumagawa.svg?branch=master}]
 
 The goal of kumagawa is to ...
 
