@@ -1,6 +1,6 @@
 library(testthat)
 library(kumagawa)
-i#library(codecov.R)
+#library(codecov.R)
 test_check("kumagawa")
 
 ## test package
