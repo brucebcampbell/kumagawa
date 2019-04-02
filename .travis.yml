@@ -11,17 +11,6 @@ repos:
   CRAN: https://cloud.r-project.org
   ropensci: http://packages.ropensci.org
 
-  deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
-  keep_history: true
-  on:
-    branch: master
-
-r_packages:
-  - covr
-
 after_success:
   - Rscript -e 'library(covr); codecov()'
  
