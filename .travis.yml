@@ -1,5 +1,5 @@
 language: r
-
+warnings_are_errors: false
 repos:
   CRAN: https://cloud.r-project.org
   ropensci: http://packages.ropensci.org
