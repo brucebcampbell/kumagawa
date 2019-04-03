@@ -7,6 +7,12 @@ before_install:
   - sudo apt-get install jags
   - sudo apt-get install r-cran-rjags
 
+services:
+  - postgresql
+
+before_script:
+  - psql -c 'create database travis_ci_test;' -U postgres
+  
 repos:
   CRAN: https://cloud.r-project.org
   ropensci: http://packages.ropensci.org
