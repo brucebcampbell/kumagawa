@@ -1,7 +1,7 @@
 library(testthat)
 library(kumagawa)
-#library(codecov.R)
+library(codecov.R)
 test_check("kumagawa")
 
-## test package
-#test_check('codecov.R')
+#test package
+test_check('codecov.R')
