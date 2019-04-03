@@ -1,0 +1,11 @@
+* installing *source* package ‘kumagawa’ ...
+** R
+** data
+*** moving datasets to lazyload DB
+** byte-compile and prepare package for lazy loading
+** help
+No man pages found in package  ‘kumagawa’ 
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded
+* DONE (kumagawa)
