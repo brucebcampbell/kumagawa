@@ -13,7 +13,6 @@ LazyData: true
 Suggests: 
     MASS,
     covr,
-    codecov.R,
     testthat
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
