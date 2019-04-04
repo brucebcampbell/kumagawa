@@ -1,7 +1,10 @@
 # kumagawa
 
+[![DOI](https://zenodo.org/badge/178958342.svg)](https://zenodo.org/badge/latestdoi/178958342)
+
 [![Build Status](https://travis-ci.org/brucebcampbell/kumagawa.svg?branch=master)](https://travis-ci.org/brucebcampbell/kumagawa)
-[![Coverage Status](https://coveralls.io/repos/github/brucebcampbell/kumagawa/badge.svg?branch=master)](https://coveralls.io/github/brucebcampbell/kumagawa?branch=master)
+
+[![codecov](https://codecov.io/gh/brucebcampbell/kumagawa/branch/master/graph/badge.svg)](https://codecov.io/gh/brucebcampbell/kumagawa)
 
 The goal of kumagawa is to ...
 
