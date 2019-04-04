@@ -20,11 +20,11 @@ Type 'q()' to quit R.
 > #library(codecov.R)
 > test_check("kumagawa")
 ══ testthat results  ═══════════════════════════════════════════════════════════
-OK: 1 SKIPPED: 0 FAILED: 0
+OK: 2 SKIPPED: 0 FAILED: 0
 > 
 > #test package
 > #test_check('codecov.R')
 > 
 > proc.time()
    user  system elapsed 
-  0.264   0.020   0.281 
+  0.260   0.032   0.285 
