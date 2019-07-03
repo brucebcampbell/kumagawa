@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.7)  5 APR 2019 00:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.7)  3 JUL 2019 22:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -309,15 +309,15 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 
 Package hyperref Warning: Option `hyperindex' has already been used,
-(hyperref)                setting the option has no effect on input line 366.
+(hyperref)                setting the option has no effect on input line 377.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 366.
+Package hyperref Info: Option `colorlinks' set `true' on input line 377.
 
 Package hyperref Warning: Option `pagebackref' has already been used,
-(hyperref)                setting the option has no effect on input line 366.
+(hyperref)                setting the option has no effect on input line 377.
 
-Package hyperref Info: Option `linktocpage' set `true' on input line 366.
-Package hyperref Info: Option `plainpages' set `false' on input line 366.
+Package hyperref Info: Option `linktocpage' set `true' on input line 377.
+Package hyperref Info: Option `plainpages' set `false' on input line 377.
 ) (/home/travis/texlive/texmf-dist/tex/latex/base/makeidx.sty
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
@@ -825,10 +825,10 @@ Package rerunfilecheck Info: File `Rd2.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 32.
  ) 
 Here is how much of TeX's memory you used:
- 6620 strings out of 494936
- 93832 string characters out of 6180743
- 169728 words of memory out of 5000000
- 9834 multiletter control sequences out of 15000+600000
+ 6621 strings out of 494936
+ 93849 string characters out of 6180743
+ 169761 words of memory out of 5000000
+ 9835 multiletter control sequences out of 15000+600000
  26429 words of font info for 31 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  38i,5n,36p,227b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -838,7 +838,7 @@ texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></home/travis/te
 xlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></home/travis/texlive/texm
 f-dist/fonts/type1/urw/times/utmb8a.pfb></home/travis/texlive/texmf-dist/fonts/
 type1/urw/times/utmr8a.pfb>
-Output written on Rd2.pdf (1 page, 46458 bytes).
+Output written on Rd2.pdf (1 page, 46767 bytes).
 PDF statistics:
  33 PDF objects out of 1000 (max. 8388607)
  25 compressed objects within 1 object stream

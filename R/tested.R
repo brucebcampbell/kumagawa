@@ -11,8 +11,8 @@ tested <- function(x) {
 
     ## do something with numbers
     if (is.numeric(x)) {
-
-        return(x)
+        y=x+0
+        return(y)
 
     } else {
 

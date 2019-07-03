@@ -1,5 +1,5 @@
 
-R version 3.5.2 (2017-01-27) -- "Eggshell Igloo"
+R version 3.6.0 (2017-01-27) -- "Planting of a Tree"
 Copyright (C) 2017 The R Foundation for Statistical Computing
 Platform: x86_64-pc-linux-gnu (64-bit)
 
@@ -20,11 +20,11 @@ Type 'q()' to quit R.
 > #library(codecov.R)
 > test_check("kumagawa")
 ══ testthat results  ═══════════════════════════════════════════════════════════
-OK: 2 SKIPPED: 0 FAILED: 0
+OK: 2 SKIPPED: 0 WARNINGS: 0 FAILED: 0
 > 
 > #test package
 > #test_check('codecov.R')
 > 
 > proc.time()
    user  system elapsed 
-  0.252   0.040   0.287 
+  0.292   0.040   0.331 
