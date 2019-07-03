@@ -6,6 +6,10 @@
 
 [![codecov](https://codecov.io/gh/brucebcampbell/kumagawa/branch/master/graph/badge.svg)](https://codecov.io/gh/brucebcampbell/kumagawa)
 
+[![Downloads](https://img.shields.io/github/downloads/brucebcampbell/kumagawa/total.svg)](https://img.shields.io/github/downloads/brucebcampbell/kumagawa/total.svg)
+
+
+
 The goal of kumagawa is to ...
 
 ## Installation
