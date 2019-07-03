@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/178958342.svg)](https://zenodo.org/badge/latestdoi/178958342)
 
-[![Build Status](https://travis-ci.org/brucebcampbell/kumagawa.svg?branch=master)](https://travis-ci.org/brucebcampbell/kumagawa)
+[![Build Status](https://travis-ci.com/brucebcampbell/kumagawa.svg?branch=master)](https://travis-ci.com/brucebcampbell/kumagawa.svg?branch=master)
 
 [![codecov](https://codecov.io/gh/brucebcampbell/kumagawa/branch/master/graph/badge.svg)](https://codecov.io/gh/brucebcampbell/kumagawa)
 
