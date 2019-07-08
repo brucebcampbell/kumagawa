@@ -12,7 +12,7 @@ tested <- function(x) {
     ## do something with numbers
     if (is.numeric(x)) {
         y=x+0
-        print(y)
+        print(y+1)
         return(y)
 
     } else {
