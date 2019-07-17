@@ -2,7 +2,7 @@
 ** R
 ** data
 *** moving datasets to lazyload DB
-** preparing package for lazy loading
+** byte-compile and prepare package for lazy loading
 ** help
 No man pages found in package  ‘kumagawa’ 
 *** installing help indices
