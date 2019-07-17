@@ -14,7 +14,7 @@ Suggests: MASS, covr, testthat
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
 NeedsCompilation: no
-Packaged: 2019-07-08 11:32:42 UTC; travis
+Packaged: 2019-07-17 17:49:45 UTC; travis
 Author: First Last [aut, cre]
 Maintainer: First Last <first.last@example.com>
-Built: R 3.6.0; ; 2019-07-08 11:32:44 UTC; unix
+Built: R 3.4.0; ; 2019-07-17 17:49:47 UTC; unix

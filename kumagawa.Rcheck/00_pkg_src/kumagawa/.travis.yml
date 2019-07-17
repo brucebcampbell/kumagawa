@@ -1,4 +1,7 @@
 language: r
+r:
+  - 3.4.0
+  - 3.5.0
 cache: packages
 warnings_are_errors: false
 
@@ -7,7 +10,7 @@ before_install:
   - sudo apt-get install jags
   - sudo apt-get install r-cran-rjags
 
-  
+
 repos:
   CRAN: https://cloud.r-project.org
   ropensci: http://packages.ropensci.org
@@ -17,7 +20,7 @@ r_packages:
 
 after_success:
   - Rscript -e 'library(covr); codecov()'
- 
+
 deploy:
   provider: pages
   skip_cleanup: true

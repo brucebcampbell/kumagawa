@@ -1,5 +1,5 @@
 
-R version 3.6.0 (2017-01-27) -- "Planting of a Tree"
+R version 3.4.0 (2017-01-27) -- "You Stupid Darkness"
 Copyright (C) 2017 The R Foundation for Statistical Computing
 Platform: x86_64-pc-linux-gnu (64-bit)
 
@@ -28,4 +28,4 @@ OK: 2 SKIPPED: 0 WARNINGS: 0 FAILED: 0
 > 
 > proc.time()
    user  system elapsed 
-  0.284   0.040   0.323 
+  0.528   0.028   0.552 
