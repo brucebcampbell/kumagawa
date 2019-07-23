@@ -10,10 +10,10 @@ Description: What the package does (one paragraph).
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
-Suggests: MASS, covr, testthat
+Suggests: MASS, covr, testthat, rstan,
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
 NeedsCompilation: no
-Packaged: 2019-07-17 17:50:10 UTC; travis
+Packaged: 2019-07-23 22:55:11 UTC; travis
 Author: First Last [aut, cre]
 Maintainer: First Last <first.last@example.com>

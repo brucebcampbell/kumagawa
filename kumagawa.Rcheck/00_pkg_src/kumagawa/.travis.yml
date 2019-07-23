@@ -1,15 +1,32 @@
 language: r
 r:
-  - 3.4.0
   - 3.5.0
 cache: packages
 warnings_are_errors: false
 
 sudo: true
 before_install:
+  - mkdir -p ~/.R/
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then echo "CXX14 = g++-7 -fPIC" >> ~/.R/Makevars; fi
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then echo "CXX14FLAGS = -mtune=native -march=native -Wno-unused-variable -Wno-unused-function -Wno-unused-local-typedefs -Wno-ignored-attributes -Wno-deprecated-declarations -Wno-attributes -O3" >> ~/.R/Makevars; fi
   - sudo apt-get install jags
   - sudo apt-get install r-cran-rjags
+  - Rscript -e 'install.packages("rstan",dependencies = TRUE)'
 
+matrix:
+  include:
+    - os: linux
+      dist: trusty
+      r_binary_packages:
+        - devtools
+      addons:
+        apt:
+          sources:
+            - ubuntu-toolchain-r-test
+          packages:
+            - g++-7
+      env:
+        - MATRIX_EVAL="CC=gcc-7 && CXX=g++-7"
 
 repos:
   CRAN: https://cloud.r-project.org
