@@ -26,19 +26,6 @@ matrix:
             - g++-7
       env:
         - MATRIX_EVAL="CC=gcc-7 && CXX=g++-7"
-    - os: linux
-      dist: trusty
-      r_binary_packages:
-        - devtools
-      addons:
-        apt:
-          sources:
-            - ubuntu-toolchain-r-test
-          packages:
-            - g++-7
-      env:
-        - MATRIX_EVAL="CC=gcc-7 && CXX=g++-7"
-
 
 repos:
   CRAN: https://cloud.r-project.org
@@ -47,7 +34,6 @@ repos:
 r_packages:
   - covr
   - rstan
-  - rstanarm
 
 after_success:
   - Rscript -e 'library(covr); codecov()'
