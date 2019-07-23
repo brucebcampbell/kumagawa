@@ -11,6 +11,7 @@ before_install:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then echo "CXX14FLAGS = -mtune=native -march=native -Wno-unused-variable -Wno-unused-function -Wno-unused-local-typedefs -Wno-ignored-attributes -Wno-deprecated-declarations -Wno-attributes -O3" >> ~/.R/Makevars; fi
   - sudo apt-get install jags
   - sudo apt-get install r-cran-rjags
+  - Rscript -e 'install.packages("rstan",dependencies = TRUE)'
 
 matrix:
   include:
@@ -33,7 +34,6 @@ repos:
 
 r_packages:
   - covr
-  - rstan
 
 after_success:
   - Rscript -e 'library(covr); codecov()'
