@@ -1,6 +1,5 @@
 language: r
 r:
-  - 3.4.0
   - 3.5.0
 cache: packages
 warnings_are_errors: false
@@ -17,7 +16,6 @@ matrix:
   include:
     - os: linux
       dist: trusty
-      r: release
       r_binary_packages:
         - devtools
       addons:
