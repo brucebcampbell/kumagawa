@@ -17,6 +17,8 @@ repos:
 
 r_packages:
   - covr
+  - rstan
+  - rstanarm
 
 after_success:
   - Rscript -e 'library(covr); codecov()'
